@@ -1,0 +1,38 @@
+baseURL = 'https://teravellinsurance.com'
+languageCode = 'en-us'
+title = 'Teravell Insurance - Your Trusted Insurance Partner'
+theme = 'hextra'
+
+[params]
+  description = "Teravell Insurance offers comprehensive auto, home, life, health, and business insurance coverage. Get the best rates and protection for your family and business."
+  images = ["og-image.jpg"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Auto Insurance"
+    pageRef = "/auto-insurance"
+    weight = 20
+  [[menu.main]]
+    name = "Home Insurance"
+    pageRef = "/home-insurance"
+    weight = 30
+  [[menu.main]]
+    name = "Life Insurance"
+    pageRef = "/life-insurance"
+    weight = 40
+  [[menu.main]]
+    name = "Health Insurance"
+    pageRef = "/health-insurance"
+    weight = 50
+  [[menu.main]]
+    name = "Business Insurance"
+    pageRef = "/business-insurance"
+    weight = 60
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 70
